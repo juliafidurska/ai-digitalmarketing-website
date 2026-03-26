@@ -1,0 +1,123 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f8fafc;
+  color: #1e293b;
+}
+
+header {
+  background: #0f172a;
+  color: white;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 16px;
+}
+
+nav a {
+  color: #e2e8f0;
+  margin-right: 12px;
+  text-decoration: none;
+}
+
+.hero {
+  background: #e2e8f0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.card {
+  flex: 1 1 250px;
+  background: white;
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.card img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+  border-radius: 8px;
+}
+
+button.accordion {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.panel {
+  display: none;
+  padding: 10px;
+  background: #f1f5f9;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background: #0f172a;
+  padding: 10px;
+}
+.hero-img {
+  width: 200px;
+  display: block;
+  margin: 10px auto;
+}
+
+.card img {
+  width: 100px;
+  margin-bottom: 30px;
+}
+
+.slider {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.slide {
+  display: none;
+}
+
+.slide.active {
+  display: block;
+}
+
+.slider button {
+  margin: 10px;
+  padding: 8px 12px;
+  background: #3b82f6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.slide img {
+  width: 200px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.media-section {
+  background: white;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
